@@ -1,6 +1,6 @@
 ##multiple simple dotplots 
-##takes 1 response var and 1+ x vars
-multPlot<-function(dat, x, y, nrow, ncol){
+##takes 1 response var and 1+ predictive vars
+multiPlot<-function(dat, x, y, nrow, ncol){
   if(length(y)!=1)
     stop("y must be of length 1.")
   n<-length(x)
@@ -16,5 +16,5 @@ multPlot<-function(dat, x, y, nrow, ncol){
 }
 
 ##example
-##multPlot(mtcars, c("mpg", "cyl", "disp", "hp"), "drat", 2, 2)
-##multPlot(mtcars, 1:4, 5, 2, 2)
+##multiPlot(mtcars, c("mpg", "cyl", "disp", "hp"), "drat", 2, 2)
+##multiPlot(mtcars, 1:4, 5, 2, 2)
