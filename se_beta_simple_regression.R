@@ -24,3 +24,14 @@ beta_se_hat<-mean(beta_ses)
 
 #percentage of beta hats that falls out of 2 se from true beta
 paste0(sum(beta_hats<beta-beta_se_hat*1.96|beta_hats>beta+beta_se_hat*1.96)/100, "%")
+
+
+
+
+
+
+
+
+
+#reading for hw2 practical data analysis fall 2017
+#chp 3 Gelman-Hill Data Analysis (p40)
