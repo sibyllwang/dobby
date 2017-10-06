@@ -61,3 +61,9 @@ multix.lm<-function(dat, x, y, test){
 
 
 
+
+
+
+#hw1 practical data analysis fall 2017
+
+
