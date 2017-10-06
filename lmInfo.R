@@ -28,3 +28,11 @@ lmInfo<-function(lst,fun){
 
 ##lm1<-multiy.lm(mtcars, "mpg", c("cyl", "disp", "hp"))
 ##lmInfo(lm1, function(lm)coef(lm)[1])
+
+
+
+
+
+
+
+#hw1 practical data analysis fall 2017
