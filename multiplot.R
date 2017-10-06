@@ -18,3 +18,14 @@ multiPlot<-function(dat, x, y, nrow, ncol){
 ##example
 ##multiPlot(mtcars, c("mpg", "cyl", "disp", "hp"), "drat", 2, 2)
 ##multiPlot(mtcars, 1:4, 5, 2, 2)
+
+
+
+
+
+
+
+
+
+
+#hw1 practical data analysis fall 2017
