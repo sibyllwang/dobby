@@ -3,7 +3,7 @@
 ##bi is a binary variable (SEX, Smoking, etc.)
 ##from and to define range of the regression curve
 ##used to check interaction when fitting multiple linear regressions
-plot_by<-function(dat, y, x, bi, from, to, color, main, lable){
+plot_bi<-function(dat, y, x, bi, from, to, color, main, lable){
   bool1<-dat[, bi]==unique(dat[, bi])[1]
   dat1<-dat[bool1,]
   bool2<-dat[, bi]==unique(dat[, bi])[2]
@@ -19,4 +19,4 @@ plot_by<-function(dat, y, x, bi, from, to, color, main, lable){
 }
 
 ##example
-##plot_by(mtcars, "qsec", "disp", "vs", min(mtcars$disp), max(mtcars$disp), c("black", "red"), "qsec v. disp by vs", c(0,1))
+##plot_bi(mtcars, "qsec", "disp", "vs", min(mtcars$disp), max(mtcars$disp), c("black", "red"), "qsec v. disp by vs", c(0,1))
